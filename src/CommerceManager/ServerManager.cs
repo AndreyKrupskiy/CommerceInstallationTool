@@ -45,15 +45,8 @@ namespace CommerceManager
         site = serverManager.Sites.Add(name, "http", bindingInformation, webRootPath);
       }
 
-      //site.
-
       site.ApplicationDefaults.ApplicationPoolName = name;
       serverManager.CommitChanges();
-
-
-      //return siteId;
-
-      //serverManager.Sites.Add("CSServices", )
     }
 
     public static ApplicationPool CreateApplicationPool(string name)

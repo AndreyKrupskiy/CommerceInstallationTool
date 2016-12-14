@@ -11,7 +11,7 @@ namespace CommerceManager
     public static void ImportCatalog()
     {
       var siteConfig = new CommerceServer.Core.Configuration.SiteConfigReadOnly();
-      siteConfig.
+      //siteConfig.
     }
   }
 }
